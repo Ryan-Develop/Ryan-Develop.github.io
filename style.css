@@ -208,8 +208,9 @@ body {
 .services {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-	gap: 20px;
-	margin-bottom: 80px;
+	gap: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 .service {
@@ -288,14 +289,13 @@ body {
 .contacts {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	gap: 20px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 
 /* Video */
 video {
-	width: 200px;
+	width: 180px;
 }
 
 
@@ -306,7 +306,6 @@ footer {
 	background-color: black;
 	padding: 10px;
 	text-align: center;
-	margin-top: 40px;
 }
 
 footer small {
