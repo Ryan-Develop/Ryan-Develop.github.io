@@ -251,7 +251,7 @@ body {
 /* pembelajaran, visi misi */
 .pembelajaran {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	gap: 20px;
 	margin-bottom: 30px;
 	margin-top: 30px;
@@ -269,7 +269,7 @@ body {
 /* video tutorial */
 .tutorial {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 20px;
 	margin-bottom: 30px;
 	margin-top: 30px;
@@ -285,17 +285,17 @@ body {
 }
 
 /* Bagian Contact */
-/*.contacts {
+.contacts {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
 	gap: 20px;
 }
 
-.contacts h2 {
+.contacts h1 {
 
 /*	grid-column-start: 1;
 	grid-column-end: -1; */
-/*	grid-column: 1 / -1;
+	grid-column: 1 / -1;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 50px;
@@ -303,14 +303,14 @@ body {
 
 /* Video */
 video {
-	width: 350px;
+	width: 250px;
 }
 
 
 /*Bagian Footer - Copyright*/
 footer {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 	background-color: black;
 	padding: 10px;
 	text-align: center;
