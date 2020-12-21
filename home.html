@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to My Website</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<header class="header">
+			<div class="hero"> 
+		<!-- jumbotron -->
+ 		 	<div class="jumbotron text-center">
+      		<img src="img/fotoku.png" class="img-circle">
+      		<h1>&copy; Muhammad Ryan</h1>
+     		<p>Universitas Pembangunan Pancabudi</p>
+   		</div>
+    	<!-- akhir jumbotron -->
+			<h2 class="heading"> Networking Fundamental <br>
+			"<span class="efek-ngetik"></span></h2>
+				<p class="sub-heading"> Welcome to My Website </p>
+			</div>
+			<div class="features feature-1">
+				<h4 class="icon"><a href="learning_materials.html" style="text-decoration:none">📕📙📗📘</a></h4>
+				<p class="item">Learning Materials</p>
+			</div> 
+			<div class="features feature-2">
+				<h4 class="icon"><a href="tutorial.html" style="text-decoration:none">🎥</a></h4>
+				<p class="item">Video Tutorial</p>
+			</div>
+		</header>
+
+
+		<nav class="menu">
+		<!-- menu mobile -->
+		<div class="menu-toggle">
+			<input type="checkbox">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="brand">
+			<h1>Network Fundamental</h1>
+		</div>
+		<ul class="menu-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="learning_materials.html">Learning Materials</a></li>
+			<li><a href="tutorial.html">Tutorial</a></li>
+			<li><a href="https://github.com/Ryan-Develop" target="blank">My App</a></li>	
+		</ul>
+		</nav>
+
+		<!-- Service -->
+		<section class="services">
+			<div class="service">
+				<div class="icon">📖</div>
+				<h3>Learning Materials</h3>
+				<p>Lerning Material (Media Pembelajaran), yang akan disajikan di Website ini adalah Media Pembelajaran yang berkaitan dengan Networking Fundamental, dan materi-materi yang disajikan juga berkaitan dengan Networking dalam membangun suatu Server dengan menggunakan Linux Debian Server.  
+				</p>
+			</div>
+
+			<div class="service">
+				<div class="icon">💻</div>
+				<h3>Tutorial</h3>
+				<p>Video Tutorial dalam Media Pembelajaran ini semuanya berkaitan dengan Networking Fundamental, yang dimana Video Tutorial ini akan menjelaskan tentang cara Penginstallasian Debian Server, Konfigurasi Debian Server, Serta Penggunaan nya dari "Awal" hingga hingga "Akhir".  
+				</p>
+			</div>
+
+			<div class="service">
+				<div class="icon">💾</div>
+				<h3>Android Application</h3>
+				<p>Android Application (Aplikasi Android), Penulis juga membuat Aplikasi Android yang dapat di install di semua pengguna SmartPhone berbasis (Android) yang dapat digunakan oleh pengguna untuk Media Pembelajaran. Dan di dalam Aplikasi Android ini terdapat fitur-fitur menarik seperti Materi, Video, dan Quiz.
+				</p>
+			</div>
+		</section>
+
+		<!-- Menu Pembelajaran -->
+		<section class="pembelajaran">
+			<h2>Visi dan Misi</h2>
+			<div class="service">
+				<div class="icon">⌛</div>
+				<h3><a href="#" style="text-decoration:none">VISI</a></h3>
+				<p>Menjadi suatu Website yang Mengajarkan Tentang Media Pembelajaran, Khususnya di bidang Networking Fundamental.
+				</p>
+			</div>
+
+			<div class="service">
+				<div class="icon">⏳</div>
+				<h3><a href="#" style="text-decoration:none">MISI</a></h3>
+				<p>Membuat Materi dan Video tutorial yang menarik tentang Networking Fundamental, agar semua orang, terutama para "Pelajar dan Mahasiswa" dapat mengetahui cara membuat suatu server dari awal sampai bisa digunakan dan saling terkoneksi ke jaringan komputer satu sama lain. 
+				</p>
+			</div>
+		</section>
+	</div>
+	
+
+	
+		<!-- Contact -->
+		<section class="contacts">
+			<h2>Personal Contact</h2>
+			<div class="service">
+				<div class="icon">🏠</div>
+				<h4><a href="https://www.google.co.id/maps/place/Gg.+Ambarsari,+Karang+Berombak,+Kec.+Medan+Bar.,+Kota+Medan,+Sumatera+Utara/" style="text-decoration:none" target="blank">Alamat</a></h4>
+				<p>Jl. Karya Gg. Ambarsari No.3 Medan</p>
+			</div>
+
+			<div class="service">
+				<div class="icon">🌏</div>
+				<h4><a href="#" style="text-decoration:none">MyWebsite</a></h4>
+				<p>+62 831-6545-2198</p>
+			</div>
+
+			<div class="service">
+				<div class="icon">😼</div>
+				<h4><a href="https://github.com/Ryan-Develop" style="text-decoration:none" target="blank">Git Hub</a></h4>
+				<p>https://github.com/Ryan-Develop</p>
+			</div>
+
+			
+		</section>
+
+	<footer>
+		<div class="container-footer">
+			<small>Copyrigt &copy; 2020 - Muhammad Ryan. </small>
+		</div>
+	</footer>
+
+	<!-- Data Script-->
+	<script src="script.js"></script>
+	<script>
+	const menuToggle = document.querySelector('.menu-toggle');
+	const nav = document.querySelector('nav ul');
+
+	menuToggle.addEventListener('click', function () {
+	nav.classList.toggle('slide');
+	});
+
+	</script>
+
+
+</body>
+</html>
